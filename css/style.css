@@ -347,20 +347,18 @@ input:not(:focus):-ms-input-placeholder {
     font-family: 'Open Sans', sans-serif;
     font-size: 18px;
     font-weight: 300;
-    margin-top: 50px;
-    margin-left: -40%;    
+    margin-top: 20px;
+    margin-left: 35%;    
     width:130%;
     height:50px; 
-    transform: rotate(+22.5deg);
 }
 
 /* Stars */
 div.stars {
     width: 300px;
     display: inline-block;
-    margin-top: 550px;
-    margin-left: -10%;
-    transform: rotate(+22.5deg);
+    margin-top: 500px;
+    margin-left: 40%;
 }
 
 legend {
