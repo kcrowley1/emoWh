@@ -11,6 +11,7 @@ function onSubmit() {
     $('input').val('');
     firstInputField().focus();
   }, 5000);
+    
     return false;
 }
 
@@ -54,13 +55,10 @@ $('[tabindex]').on('keydown', function(event) {
 });
 
 $(document).ready(function() {
-  $('.wheel').removeClass('closed');
-  firstInputField().focus();
-});
-
-//Rating 
-$(document).ready(function(){
-//  Check Radio-box
+    $('.wheel').removeClass('closed');
+    firstInputField().focus();
+    
+    //Rating 
     $(".rating input:radio").attr("checked", false);
     $('.rating input').click(function () {
         $(".rating span").removeClass('checked');
@@ -71,5 +69,6 @@ $(document).ready(function(){
     function(){
         var userRating = this.value;
         //alert(userRating);
-    }); 
+    });     
 });
+
